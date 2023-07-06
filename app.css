@@ -1,0 +1,387 @@
+body {}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0%;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: "Bai Jamjuree";
+    color: hsl(210, 10%, 33%);
+    margin-top: 26.56px;
+    margin-bottom: 26.56px;
+
+
+
+}
+
+h2 {
+    font-size: 2em;
+    font-family: "Bai Jamjuree";
+    color: hsl(210, 10%, 33%);
+}
+
+
+h3 {
+    font-family: "Bai Jamjuree";
+    font-size: 20px;
+    color: hsl(210, 10%, 33%);
+
+}
+
+p {
+    font-family: "Bai Jamjuree";
+    color: hsl(201, 11%, 66%);
+
+
+
+}
+
+.card {
+    text-align: center;
+    margin-top: 10%;
+
+}
+
+
+
+.para1 {
+    margin-right: 16%;
+    margin-left: 16%;
+    margin-top: 18px;
+    margin-bottom: 50px;
+
+}
+
+.para2 {
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 6%;
+
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    padding-left: 12px;
+}
+
+.act {
+    margin-left: 7%;
+    margin-right: 6%;
+
+}
+
+.com1 {
+    margin-left: -4%;
+}
+
+
+.access {
+    text-align: center;
+    margin-top: 15%;
+}
+
+.para3 {
+    text-align: center;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-bottom: 12%;
+    color: hsl(201, 11%, 66%);
+    margin-top: 16px;
+
+}
+
+.work {
+    margin-top: 10%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.button1 {
+    width: 22%;
+    height: 15%;
+    text-align: center;
+    border-radius: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: hsl(171, 66%, 44%);
+    color: aliceblue;
+}
+
+.button2 {
+    width: 22%;
+    height: 15%;
+    text-align: center;
+    border-radius: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: hsl(233, 100%, 69%);
+    color: aliceblue;
+
+}
+
+
+
+.super {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: baseline;
+}
+
+.blacklists {
+    width: 40%;
+
+}
+
+.image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image img {
+    margin-right: 14%;
+    margin-top: 17%;
+}
+
+.google {
+    margin-left: -29%;
+}
+
+
+.para4 {
+    text-align: center;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-bottom: 12%;
+    margin-bottom: 60px;
+    color: hsl(201, 11%, 66%);
+
+
+}
+
+.button3 {
+    width: 22%;
+    height: 28%;
+    text-align: center;
+    border-radius: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: hsl(171, 66%, 44%);
+    color: aliceblue;
+
+}
+
+.button4 {
+    width: 22%;
+    height: 28%;
+    text-align: center;
+    border-radius: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: hsl(233, 100%, 69%);
+    color: aliceblue;
+
+}
+
+/*.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30%;
+    position: relative;
+    align-items: center;
+    margin-right: -168%;
+    right: 408px;*/
+
+
+.logo img {
+    height: 50px;
+    margin-left: 30px;
+    margin-right: -41px;
+}
+
+
+footer {
+    margin-top: 18%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu {
+    margin-left: 27%;
+    font-size: larger;
+    cursor: pointer;
+
+}
+
+
+.media {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    margin-left: 30%;
+
+}
+
+.media img {
+    margin-left: 25%;
+
+
+}
+
+@media screen and (max-width: 375px) {
+    .button1 {
+        margin-left: 0%;
+        width: 84%;
+        height: 10%;
+        margin-bottom: 15px;
+    }
+
+    .button2 {
+        margin-left: 0%;
+        width: 84%;
+        height: 10%;
+    }
+
+    .para1 {
+        margin-right: 7%;
+        margin-left: 7%;
+        margin-bottom: 10%;
+    }
+
+    h2 {
+        margin-top: 30%;
+    }
+
+    .para2 {
+        margin-right: 8%;
+        margin-left: 8%;
+        margin-bottom: 20%;
+    }
+
+    .actions {
+        display: flex;
+        flex-direction: column;
+        padding-left: 12px;
+    }
+
+    .com1 {
+        margin-left: 6%;
+        width: 300px;
+    }
+
+    .act {
+        margin-left: 7%;
+        margin-right: 6%;
+        text-align: center;
+        margin-bottom: 35%;
+    }
+
+
+    .para3 {
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 12%;
+        color: hsl(201, 11%, 66%);
+        margin-top: 16px;
+    }
+
+    .com2 {
+        width: 100%;
+    }
+
+    .super {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .blacklists {
+        width: 91%;
+    }
+
+    .work {
+        text-align: center;
+        width: 94%;
+    }
+
+    .plain {
+        width: 91%;
+    }
+
+    .sneak {
+        width: 95%;
+    }
+
+    .image {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .google {
+        margin-left: 0%;
+    }
+
+    .image img {
+        margin-top: 40%;
+    }
+
+    .button3 {
+        margin-left: 0%;
+        width: 84%;
+        height: 10%;
+        margin-bottom: 15px;
+    }
+
+    .button4 {
+        margin-left: 0%;
+        width: 84%;
+        height: 10%;
+        margin-bottom: 15px;
+    }
+
+    .logo img {
+        height: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    footer {
+        margin-top: 18%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .media {
+        margin-left: -20%;
+    }
+
+    .menu {
+        margin-left: 0%;
+    }
+}
+
+
+
+/*footer span 
+
+    margin-right: 14%;*/
